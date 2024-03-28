@@ -1,0 +1,26 @@
+.hero::before {
+  z-index: -1;
+  top: -10%;
+  left: 20%;
+  /* position: relative; */
+  position: absolute;
+  content: "";
+  background-image: url("../../assets/legal-ai.webp");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height: 1300px;
+  width: 80%;
+}
+.balckk::before {
+  z-index: 10;
+  top: -10%;
+  /* position: relative; */
+  position: fixed;
+  content: "";
+  /* background-image: url("../../assets/legal-ai.webp"); */
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 110%;
+  width: 20%;
+}
