@@ -1,26 +1,47 @@
 .hero::before {
   z-index: -1;
   top: -10%;
-  left: 20%;
+  /* left: 20%; */
   /* position: relative; */
   position: absolute;
   content: "";
   background-image: url("../../assets/legal-ai.webp");
-  background-size: 120%;
+  background-size: 150%;
   background-repeat: no-repeat;
-  height: 1300px;
-  width: 80%;
+  height: 100vh;
+  width: 100%;
 }
 .balckk::before {
   z-index: 10;
   top: -10%;
-  /* position: relative; */
-  position: fixed;
+  position: absolute;
+  /* position: fixed; */
   content: "";
   /* background-image: url("../../assets/legal-ai.webp"); */
   background-color: black;
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 110%;
+  height: 100vh;
   width: 20%;
+}
+.swiper-button-next {
+  position: absolute;
+  top: 95%;
+  right: 25px;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.swiper-button-prev {
+  position: absolute;
+  top: 95%;
+  left: 94%;
+  color: #ffffff;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.aboutImg::before {
+  position: absolute;
+  background-image: url('src\assets\1805473.webp');
+  top: 10%;
 }

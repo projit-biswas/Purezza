@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <nav className="w-screen h-[5.5rem] py-5 px-11 flex flex-wrap justify-between items-center font-mono font-semibold">
+      <nav className="w-screen h-[5.5rem] py-5 px-11 flex flex-wrap justify-between items-center font-mono font-semibold cursor-pointer">
         <div>
           <img
             className="w-40 h-12"

@@ -4,13 +4,11 @@ import Slider from "./Slider";
 function Hero() {
   return (
     <>
-      <section className="w-screen  absolute top-0 z-[-1] flex">
-        <div className="w-[100%] z-[-1]">
+      <section className="h-[800px] w-screen  flex">
+        <div className="w-[20%] h-[110vh] bg-black z-[-1] absolute -top-10 "></div>
+        <div className="w-[80%] h-screen z-[-1] absolute -top-10 left-[20%] ">
           <Slider />
         </div>
-        {/* <div className="w-[20%] h-screen bg-black ">
-          
-        </div> */}
       </section>
     </>
   );

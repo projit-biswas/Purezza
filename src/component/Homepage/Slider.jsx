@@ -9,7 +9,7 @@ import "./style.css";
 function Slider() {
   return (
     <>
-      <div className="balckk"></div>
+      {/* <div className="balckk"></div> */}
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
@@ -19,7 +19,7 @@ function Slider() {
         onSlideChange={() => console.log("slide change")}
       >
         <div>
-          <SwiperSlide>
+          <SwiperSlide className="">
             <div className="hero">
               {/* <img
               className="w-screen h-screen"
