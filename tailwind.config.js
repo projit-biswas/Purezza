@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mono: ["Montserrat"],
+        mono: ["Montserrat", "sans-serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

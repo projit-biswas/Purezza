@@ -4,9 +4,9 @@ import Slider from "./Slider";
 function Hero() {
   return (
     <>
-      <section className="h-[800px] w-screen  flex">
-        <div className="w-[20%] h-[110vh] bg-black z-[-1] absolute -top-10 "></div>
-        <div className="w-[80%] h-screen z-[-1] absolute -top-10 left-[20%] ">
+      <section className="h-screen w-full relative z-10 flex">
+        <div className="w-[20%] h-[100vh] bg-black z-[-1] absolute -top-[5.5rem]"></div>
+        <div className="w-[80%] h-screen z-[-1] absolute -top-[5.5rem] left-[20%] ">
           <Slider />
         </div>
       </section>

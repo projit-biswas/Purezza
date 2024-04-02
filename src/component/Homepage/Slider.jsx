@@ -22,7 +22,7 @@ function Slider() {
           <SwiperSlide className="">
             <div className="hero">
               {/* <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\legal-ai.webp"
               alt="legal-ai"
             /> */}
@@ -34,7 +34,7 @@ function Slider() {
           <SwiperSlide>
             <div className="hero">
               {/* <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\legal-ai.webp"
               alt="legal-ai"
             /> */}
@@ -45,42 +45,42 @@ function Slider() {
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen [z-1]"
+              className="w-full h-screen [z-1]"
               src="src\assets\peakpx.jpg"
               alt="peakpx"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\peakpx-2.jpg"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\photo-1626785774573-4b799315345d.jpeg"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\DevOps-symbol_0.jpg"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\1805473.webp"
               alt=""
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-screen h-screen"
+              className="w-full h-screen"
               src="src\assets\cyber-attacks-scaled-1.jpg"
               alt=""
             />
