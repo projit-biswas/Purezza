@@ -1,4 +1,5 @@
 import React from "react";
+
 import Button from "./Button";
 import "./style.css";
 
@@ -7,12 +8,12 @@ function Needs() {
     <>
       <div className="w-full h-[100%] font-mono ">
         <div className="need"></div>
-        <div className="bg-[#0d0d0db3] w-[600px] h-screen absolute right-20 p-20 text-white flex justify-center items-start flex-col ">
-          <h1 className="text-4xl font-bold">
+        <div className="bg-[#0d0d0db3] w-[600px] h-screen absolute right-20 p-20 text-white flex justify-center items-start flex-col gap-9">
+          <h1 className="text-[35px] font-bold leading-10">
             We understand <br />
             your needs.
           </h1>
-          <p>
+          <p className="font-medium text-[15px] opacity-70 text-start leading-relaxed">
             At Purezza Technologies, we pride ourselves on our deep
             understanding of customer needs. We know that every client is
             unique, with specific requirements and goals. That's why we take the

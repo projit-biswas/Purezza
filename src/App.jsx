@@ -1,22 +1,30 @@
 import { useState } from "react";
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
 import Navbar from "./component/Homepage/Navbar";
 import "./App.css";
 import Hero from "./component/Homepage/Hero";
 import Home from "./component/Homepage/Home";
 import About from "./component/Homepage/About";
 import Needs from "./component/Homepage/Needs";
+import OurClient from "./component/Homepage/OurClient";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {<Navbar />}
-      {<Home/>}
+      {/* <Navbar />
+      <Home/>
       <About />
-      <Needs />
+      <Needs /> */}
+      <OurClient/>
     </>
   );
 }
 
 export default App;
+library.add(fab, fas, far)
