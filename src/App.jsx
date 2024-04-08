@@ -11,17 +11,19 @@ import Home from "./component/Homepage/Home";
 import About from "./component/Homepage/About";
 import Needs from "./component/Homepage/Needs";
 import OurClient from "./component/Homepage/OurClient";
+import News from "./component/Homepage/News";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <Navbar />
-      <Home/>
-      <About />
-      <Needs /> */}
-      <OurClient/>
+      {/* <Navbar /> */}
+      {/* <Home/> */}
+      {/* <About /> */}
+      {/* <Needs /> */}
+      {/* <OurClient/> */}
+      <News/>
     </>
   );
 }
