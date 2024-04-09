@@ -6,9 +6,9 @@ import "./style.css";
 function Needs() {
   return (
     <>
-      <div className="w-full h-[100%] font-mono ">
+      <div className="w-full h-[1000px] font-mono ">
         <div className="need"></div>
-        <div className="bg-[#0d0d0db3] w-[600px] h-screen absolute right-20 p-20 text-white flex justify-center items-start flex-col gap-9">
+        <div className="bg-[#0d0d0db3] w-[600px] h-full absolute right-20 p-20 text-white flex justify-center items-start flex-col gap-9">
           <h1 className="text-[35px] font-bold leading-10">
             We understand <br />
             your needs.

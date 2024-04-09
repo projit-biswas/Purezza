@@ -18,12 +18,12 @@ function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Home/> */}
-      {/* <About /> */}
-      {/* <Needs /> */}
-      {/* <OurClient/> */}
+      <Navbar />
+      <Home/>
+      <About />
+      <Needs />
       <News/>
+      <OurClient/>/
     </>
   );
 }

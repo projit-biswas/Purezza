@@ -92,7 +92,12 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100%;
  background-size: 110%;
  opacity: 0.95;
+}
+.newsImg{
+  background-image: url('../../assets/backImg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
