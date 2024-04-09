@@ -171,7 +171,7 @@ function OurClient() {
             </div>
           </div>
         </div>
-        <div className="mb-0 text-[11px] font-bold tracking-[0.3rem] pl-9 leading-relaxed text-[#c2c2c2] opacity-60">
+        <div className="mb-0 text-[11px] font-bold tracking-[0.3rem] pl-9 pt-20 leading-relaxed text-[#c2c2c2] opacity-60">
           <p className="">2024 © PUREZZA TECHNOLOGIES</p>
         </div>
       </div>
