@@ -13,19 +13,21 @@ import Needs from "./component/Homepage/Needs";
 import OurClient from "./component/Homepage/OurClient";
 import News from "./component/Homepage/News";
 import OurServices from "./component/Homepage/OurServices";
+import Help from "./component/Homepage/Help";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Home/>
       <About />
       <Needs />
       <OurServices/>
       <News/>
-      <OurClient/>
+      <OurClient/> */}
+      <Help/>
     </>
   );
 }
